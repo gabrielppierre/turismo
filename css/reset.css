@@ -1,0 +1,20 @@
+*{
+	margin:0; padding: 0; font-size: 100%; box-sizing: border-box; font-family: 'Source Sans Pro', sans-serif; 
+};
+nav, ul, li{
+	list-style: none;
+}
+a{
+    color: #191c03;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.8;
+    text-transform: capitalize;
+}
+a:hover{
+    opacity: 1;
+    transition: 200ms;
+}
+nav, ul{
+	list-style: none;
+}
