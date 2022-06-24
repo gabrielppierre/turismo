@@ -69,18 +69,18 @@ header > nav > li{
     align-items: center;
     padding: 100px 50px;
 }
-.more > h3{
+.padrao-h3{
     font-size: 2rem;
     margin-bottom: 35px;
     color: #191c03;
 }
-.more > p{
+.padrao-p{
     text-align: center;
     max-width: 800px;
     margin-bottom: 35px;
     color: #191c03;
 }
-.more > hr{
+.padrao-hr{
     width: 200px;
     height: 2px;
     background-color: #191c03;
@@ -178,6 +178,66 @@ header > nav > li{
     background-color: #fff;
 }
 
+/*newsletter*/
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #e5eabe;
+}
+.newsletter form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 800px;
+}
+.newsletter input{
+    padding: 15px;
+    border: 1px solid #191c03;
+    border-radius: 4px;
+    margin-right: 15px;
+    flex: 1;
+}
+.newsletter button{
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 15px;
+    background-color: #c3c63b;
+    color: #191c03;
+    text-transform: uppercase;
+    border: none;
+}
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #191c03;
+    padding: 50px 0;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    margin-bottom: 25px;
+}
+footer ul li{
+    margin-right: 10px;
+
+}
+footer ul li:last-child{
+    margin-right: 0;
+}
+footer ul li a{
+    color: #c3c63b;
+    font-size: 2rem;
+
+}
+footer p{
+    color: #c3c63b;
+    text-align: center;
+}
 
 @keyframes aumenta{
     0%{width: 20%;}
@@ -233,5 +293,9 @@ header > nav > li{
     }
     #radio4:checked ~ .first{
         margin-left: -150%;
+    }
+    .newsletter input{
+        flex-basis: 100%;
+        margin-bottom: 15px;
     }
 }
